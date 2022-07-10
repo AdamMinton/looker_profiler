@@ -8,6 +8,8 @@ looker-sdk = "*"
 argparse = "*"
 path = "*"
 progressbar2 = "*"
+lkml = "*"
+pandas = "*"
 
 [dev-packages]
 

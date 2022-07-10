@@ -73,7 +73,6 @@ def main():
                         help="ini file to parse for credentials", required=True)
     parser.add_argument("--section", default="looker",
                         help="section for credentials", required=True)
-    parser.add_argument("--project", help="LookML Project", required=True)
     parser.add_argument("--model", help="LookML Model", required=True)
     parser.add_argument("--explore", nargs='+', default=[],
                         help="LookML Model", required=False)
@@ -83,7 +82,6 @@ def main():
                         help="LookML Model", required=False)
 
     args = parser.parse_args()
-    project_name = args.project
     model_name = args.model
     explore_list = args.explore
     profile_measure = args.profile_measure
