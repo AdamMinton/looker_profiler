@@ -5,5 +5,5 @@ pipenv run python looker_profiler.py --section=looker --ini=looker.ini --model=f
 
 ```
 pipenv install
-pipenv run python looker_augment_field.py --project_folder=/Users/adamminton/Documents/GitHub/fhir_sandbox
+pipenv run python looker_augment_field.py --project_folder=/GitHub/fhir_sandbox
 ```
