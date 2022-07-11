@@ -6,7 +6,7 @@ from lkml.tree import PairNode, SyntaxToken, BlockNode
 from lkml.visitors import BasicTransformer
 from dataclasses import replace
 
-
+#Took code from here https://github.com/EricHeidbreder/lookml_support/blob/main/lookml_support/add_group_label.py
 class AddFieldHiddenTransformer(BasicTransformer):
     def __init__(self, field_search, overwrite_confirmation=True, overwrite_override=False):
         # Create a properly formatted list from messy user input
